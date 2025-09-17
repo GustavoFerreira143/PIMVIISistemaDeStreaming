@@ -519,7 +519,37 @@
           <mxGeometry x="200" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yU3RdAlYThRb6PwqIOMg-3" value="Inserir Data de Validade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="890" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yU3RdAlYThRb6PwqIOMg-4" value="Inserir Código de Segurança" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yU3RdAlYThRb6PwqIOMg-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yU3RdAlYThRb6PwqIOMg-1" target="yU3RdAlYThRb6PwqIOMg-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="900" as="sourcePoint" />
+            <mxPoint x="400" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yU3RdAlYThRb6PwqIOMg-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yU3RdAlYThRb6PwqIOMg-2" target="yU3RdAlYThRb6PwqIOMg-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="900" as="sourcePoint" />
+            <mxPoint x="400" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yU3RdAlYThRb6PwqIOMg-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yU3RdAlYThRb6PwqIOMg-3" target="yU3RdAlYThRb6PwqIOMg-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="900" as="sourcePoint" />
+            <mxPoint x="400" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yU3RdAlYThRb6PwqIOMg-8" value="CPF/CNPJ do titular" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yU3RdAlYThRb6PwqIOMg-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yU3RdAlYThRb6PwqIOMg-4" target="yU3RdAlYThRb6PwqIOMg-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1130" as="sourcePoint" />
+            <mxPoint x="400" y="1080" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
