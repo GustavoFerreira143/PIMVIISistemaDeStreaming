@@ -1471,7 +1471,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qwJjMnjpAI20UpfV9UQW" name="FluxoDeAtividadesFazerStream">
-    <mxGraphModel dx="1025" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1244" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1533,6 +1533,75 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="670" as="sourcePoint" />
             <mxPoint x="440" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-13" value="Inserir Bots de Stream (opc)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ubVjXXY2qbIfxRXJPpJB-11" target="ubVjXXY2qbIfxRXJPpJB-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="690" as="sourcePoint" />
+            <mxPoint x="400" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-15" value="Iniciar Stream" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ubVjXXY2qbIfxRXJPpJB-13" target="ubVjXXY2qbIfxRXJPpJB-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="810" as="sourcePoint" />
+            <mxPoint x="400" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-17" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="1022" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-18" value="Dados Inseridos Corretamente?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="960" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ubVjXXY2qbIfxRXJPpJB-15" target="ubVjXXY2qbIfxRXJPpJB-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="930" as="sourcePoint" />
+            <mxPoint x="400" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-20" value="Não foi possivel iniciar a Stream" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1032" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ubVjXXY2qbIfxRXJPpJB-17" target="ubVjXXY2qbIfxRXJPpJB-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="930" as="sourcePoint" />
+            <mxPoint x="400" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-22" value="Transmitindo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ubVjXXY2qbIfxRXJPpJB-17" target="ubVjXXY2qbIfxRXJPpJB-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1160" as="sourcePoint" />
+            <mxPoint x="400" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-24" value="Sim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1112" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-25" value="Não" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1032" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-30" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="388.5" y="1380" width="51" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ubVjXXY2qbIfxRXJPpJB-22" target="ubVjXXY2qbIfxRXJPpJB-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="1350" as="sourcePoint" />
+            <mxPoint x="370" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubVjXXY2qbIfxRXJPpJB-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ubVjXXY2qbIfxRXJPpJB-20" target="ubVjXXY2qbIfxRXJPpJB-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="1350" as="sourcePoint" />
+            <mxPoint x="370" y="1300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
