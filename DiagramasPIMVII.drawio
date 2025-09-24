@@ -1709,7 +1709,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qS-UgMfRJysen8dKnd7_" name="FluxoDeAtividadeBotsDeStream">
-    <mxGraphModel dx="2073" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1917" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1964,6 +1964,36 @@
         </mxCell>
         <mxCell id="hmBM4rC5Fo1FjJUpYq1N-50" value="Banimento" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1181" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-52" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-53" value="Ações Inseridas com sucesso?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1270" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="hmBM4rC5Fo1FjJUpYq1N-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425.6451612903229" y="1260" as="sourcePoint" />
+            <mxPoint x="417.6506024096384" y="1372.6506024096386" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-55" value="Inserir Parametros para Aviso" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="732" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.114;exitY=1.125;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmBM4rC5Fo1FjJUpYq1N-47" target="hmBM4rC5Fo1FjJUpYq1N-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="490" as="sourcePoint" />
+            <mxPoint x="970" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-57" value="Inserir Parametros para Banimento" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1162" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.911;exitY=0.812;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmBM4rC5Fo1FjJUpYq1N-47" target="hmBM4rC5Fo1FjJUpYq1N-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="490" as="sourcePoint" />
+            <mxPoint x="970" y="440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
