@@ -1693,6 +1693,9 @@
             <mxPoint x="440" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="o0UMt_yO_G1MM8K638pZ-1" value="Um diferencial será a inserção de canais de terceiros que participão de seus videos, assim ocorrendo menos problemas, no caso por exemplo pode-se pensar em um react, onde você assiste videos de terceiros em seus videos." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="55" width="190" height="125" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
