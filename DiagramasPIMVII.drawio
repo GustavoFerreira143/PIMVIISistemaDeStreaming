@@ -1839,17 +1839,17 @@
         <mxCell id="hmBM4rC5Fo1FjJUpYq1N-20" value="Inserir Nome do Evento" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-21" value="Inserir Mensagens de Resposta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-21" value="Inserir Mensagens" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="594" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hmBM4rC5Fo1FjJUpYq1N-22" value="Inserir Voz para Resposta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="710" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="828" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hmBM4rC5Fo1FjJUpYq1N-23" value="Inserir Som do Alerta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hmBM4rC5Fo1FjJUpYq1N-24" value="Inserir Som do Alerta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="830" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="948" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hmBM4rC5Fo1FjJUpYq1N-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hmBM4rC5Fo1FjJUpYq1N-16" target="hmBM4rC5Fo1FjJUpYq1N-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1869,15 +1869,33 @@
             <mxPoint x="330" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hmBM4rC5Fo1FjJUpYq1N-21" target="hmBM4rC5Fo1FjJUpYq1N-22">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="660" as="sourcePoint" />
-            <mxPoint x="330" y="620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="hmBM4rC5Fo1FjJUpYq1N-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmBM4rC5Fo1FjJUpYq1N-22" target="hmBM4rC5Fo1FjJUpYq1N-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="790" as="sourcePoint" />
+            <mxPoint x="330" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-30" value="Inserir Som do Alerta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-102" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmBM4rC5Fo1FjJUpYq1N-12" target="hmBM4rC5Fo1FjJUpYq1N-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1020" as="sourcePoint" />
+            <mxPoint x="330" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-32" value="Inserir Momentos de Disparo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmBM4rC5Fo1FjJUpYq1N-21" target="hmBM4rC5Fo1FjJUpYq1N-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="790" as="sourcePoint" />
+            <mxPoint x="330" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hmBM4rC5Fo1FjJUpYq1N-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="hmBM4rC5Fo1FjJUpYq1N-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="770" as="sourcePoint" />
             <mxPoint x="330" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
