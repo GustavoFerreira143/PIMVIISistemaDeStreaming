@@ -2248,6 +2248,9 @@
             <mxPoint x="440" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="S-1s_iA_rCa8DzceCBNP-13" value="Nesta Etapa é feito a aprovação de eventos mais larga escala, onde a empresa patrocinadora quer um evento inédito o mesmo deve ser previamente aprovado ." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="170" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
