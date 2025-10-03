@@ -2486,7 +2486,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Tdt2Bd2Q-ky2ciPv8xyw" name="DiagramaDeClasses">
-    <mxGraphModel dx="1917" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1745" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2703,9 +2703,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f8lTIuKl9If6AdlYnQds-40" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="CywI_xIKq41Ch-B87fnZ-3">
-          <mxGeometry x="-0.7802" y="10" relative="1" as="geometry">
-            <mxPoint x="616" y="750" as="sourcePoint" />
+        <mxCell id="f8lTIuKl9If6AdlYnQds-40" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="CywI_xIKq41Ch-B87fnZ-3">
+          <mxGeometry x="-0.5556" y="10" relative="1" as="geometry">
+            <mxPoint x="270" y="580" as="sourcePoint" />
             <mxPoint x="270" y="579" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
