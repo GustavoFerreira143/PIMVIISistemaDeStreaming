@@ -2739,10 +2739,10 @@
             <mxPoint x="570" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f8lTIuKl9If6AdlYnQds-47" value="N, N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="f8lTIuKl9If6AdlYnQds-47" value="0, N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="724" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="f8lTIuKl9If6AdlYnQds-48" value="N, N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="f8lTIuKl9If6AdlYnQds-48" value="0, N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="515" y="724" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
