@@ -2527,17 +2527,6 @@
         <mxCell id="Zt24wDLSoQ6KddpXc_jY-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ContaBancaria&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Id_Conta : Int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Banco: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Agencia: String&lt;br&gt;- NumeroConta: INT&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ RecebeDados(): bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- EfetuarPagamentos(Id_Usuario): bool&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="170" y="145" width="220" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Akb5iPQKt-rxJfIP4c9W-1" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=-0.006;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="k9zpSFE-8ZCP21fZlOj9-1" edge="1" source="Zt24wDLSoQ6KddpXc_jY-1">
-          <mxGeometry x="-0.9321" y="-20" relative="1" as="geometry">
-            <mxPoint x="260" y="230" as="sourcePoint" />
-            <mxPoint x="520" y="190" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="520" y="230" />
-              <mxPoint x="520" y="224" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="f8lTIuKl9If6AdlYnQds-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mrBHrF8PR-DWsUEEr9Jn-1" target="dJ57Dxf0HLNaCTdq6OMU-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -2744,6 +2733,18 @@
         </mxCell>
         <mxCell id="f8lTIuKl9If6AdlYnQds-48" value="0, N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="515" y="724" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f8lTIuKl9If6AdlYnQds-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Zt24wDLSoQ6KddpXc_jY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="220" as="sourcePoint" />
+            <mxPoint x="690" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f8lTIuKl9If6AdlYnQds-52" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="194" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f8lTIuKl9If6AdlYnQds-53" value="0, 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="387" y="194" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
