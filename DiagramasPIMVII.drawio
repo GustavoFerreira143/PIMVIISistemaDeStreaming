@@ -2486,7 +2486,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Tdt2Bd2Q-ky2ciPv8xyw" name="DiagramaDeClasses">
-    <mxGraphModel dx="2455" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3961" dy="1272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2616,9 +2616,6 @@
             <mxPoint x="450" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZzeZOz91MFCRp-LcwLDX-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Bots&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- IdBot: Int&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;- NomeBot: String&lt;br&gt;- Ativo: bool&lt;br&gt;- IdCanalAssociado: Int&amp;nbsp;&lt;br&gt;+ ConfigAlerta: ConfiguracaoAlerta&lt;br&gt;+ ConfigChat: ConfiguracaoChat&lt;br&gt;+ ConfigModeracao: ConfiguracaoModeracao&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Bot(IdBot, NomeBot, IdCanalAssociado)&amp;nbsp;&lt;br&gt;+ Ativar(): void&amp;nbsp;&lt;br&gt;    + Desativar(): void&amp;nbsp;&lt;br&gt;    + SalvarConfiguracoes(cfgAlerta: ConfiguracaoAlerta, cfgChat: ConfiguracaoChat, cfgModeracao: ConfiguracaoModeracao): bool&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ ProcessarAlerta(evento: EventoAlerta): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ProcessarMensagemChat(mensagem: MensagemChat): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="376" width="450" height="264" as="geometry" />
-        </mxCell>
         <mxCell id="ZzeZOz91MFCRp-LcwLDX-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=-0.004;exitY=0.072;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dJ57Dxf0HLNaCTdq6OMU-1" target="ZzeZOz91MFCRp-LcwLDX-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="490" as="sourcePoint" />
@@ -2630,6 +2627,63 @@
         </mxCell>
         <mxCell id="ZzeZOz91MFCRp-LcwLDX-11" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="350" width="50" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ConfiguracaoAlerta&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ConfigDoacao: ConfiguracaoTipoAlerta&lt;br&gt;    + ConfigInscricao: ConfiguracaoTipoAlerta&lt;br&gt;    + ConfigEventos: ConfiguracaoTipoAlerta&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="194" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;&lt;b&gt;ConfiguracaoTipoAlerta&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ Ativo: bool&lt;br&gt;    + TemplateMensagem: String&amp;nbsp;&lt;br&gt;    + ExibirNomeUsuario: bool&lt;br&gt;    + CaminhoArquivoSom: String&lt;br&gt;    + CaminhoArquivoVoz: String&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="460" width="360" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;&lt;b&gt;ConfiguracaoChat&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&amp;nbsp;+ ComandosRespostas: Map&amp;lt;String, String&amp;gt;&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="780" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ConfiguracaoModeracao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Ativa: bool&lt;br&gt;    + PalavrasProibidas: Array&amp;lt;String&amp;gt;&lt;br&gt;    + BloquearLinks: bool&lt;br&gt;    + BloquearCapsExagerado: bool&lt;br&gt;    + AcaoParaInfracao: String&lt;br&gt;    + MensagemDeAviso: String&amp;nbsp;&lt;br&gt;    + DuracaoTimeoutSegundos: Int&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="826" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-18" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZzeZOz91MFCRp-LcwLDX-12" target="ZzeZOz91MFCRp-LcwLDX-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-760" y="560" as="sourcePoint" />
+            <mxPoint x="-600" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-19" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZzeZOz91MFCRp-LcwLDX-13" target="ZzeZOz91MFCRp-LcwLDX-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-720" y="340" as="sourcePoint" />
+            <mxPoint x="-572" y="432" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-20" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.139;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZzeZOz91MFCRp-LcwLDX-15" target="ZzeZOz91MFCRp-LcwLDX-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-810" y="520" as="sourcePoint" />
+            <mxPoint x="-710" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-21" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.549;exitY=0.036;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZzeZOz91MFCRp-LcwLDX-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-750" y="520" as="sourcePoint" />
+            <mxPoint x="-650" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-22" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.549;exitY=0.036;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZzeZOz91MFCRp-LcwLDX-16" target="ZzeZOz91MFCRp-LcwLDX-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-710" y="831" as="sourcePoint" />
+            <mxPoint x="-650" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Bots&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- IdBot: Int&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;- NomeBot: String&lt;br&gt;- Ativo: bool&lt;br&gt;- IdCanalAssociado: Int&amp;nbsp;&lt;br&gt;+ ConfigAlerta: ConfiguracaoAlerta&lt;br&gt;+ ConfigChat: ConfiguracaoChat&lt;br&gt;+ ConfigModeracao: ConfiguracaoModeracao&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Bot(IdBot, NomeBot, IdCanalAssociado)&amp;nbsp;&lt;br&gt;+ Ativar(): void&amp;nbsp;&lt;br&gt;    + Desativar(): void&amp;nbsp;&lt;br&gt;    + SalvarConfiguracoes(cfgAlerta: ConfiguracaoAlerta, cfgChat: ConfiguracaoChat, cfgModeracao: ConfiguracaoModeracao): bool&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ ProcessarAlerta(evento: EventoAlerta): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ProcessarMensagemChat(mensagem: MensagemChat): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="376" width="450" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.009;exitY=0.862;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZzeZOz91MFCRp-LcwLDX-1" target="ZzeZOz91MFCRp-LcwLDX-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="830" as="sourcePoint" />
+            <mxPoint x="220" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-24" value="0,N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="480" width="50" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-25" value="0, N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="476" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
