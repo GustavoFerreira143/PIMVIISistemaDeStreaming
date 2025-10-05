@@ -2604,10 +2604,10 @@
             <mxPoint x="660" y="651" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZzeZOz91MFCRp-LcwLDX-4" value="0, 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-4" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="430" width="50" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZzeZOz91MFCRp-LcwLDX-6" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZzeZOz91MFCRp-LcwLDX-6" value="0,1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="397.5" y="430" width="50" height="26" as="geometry" />
         </mxCell>
       </root>
