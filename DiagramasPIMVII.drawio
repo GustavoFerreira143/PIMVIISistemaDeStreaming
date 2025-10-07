@@ -2575,7 +2575,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Tdt2Bd2Q-ky2ciPv8xyw" name="DiagramaDeClasses">
-    <mxGraphModel dx="3317" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4610" dy="1127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2793,7 +2793,7 @@
           <mxGeometry x="100" y="910" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="igKNfI2ISFouNJdk1COR-4" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="295" width="60" height="30" as="geometry" />
+          <mxGeometry x="80" y="295" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="igKNfI2ISFouNJdk1COR-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="q_PQjmRd9rXgcwn8tQZi-1" target="ZzeZOz91MFCRp-LcwLDX-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
