@@ -2575,7 +2575,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Tdt2Bd2Q-ky2ciPv8xyw" name="DiagramaDeClasses">
-    <mxGraphModel dx="3783" dy="1174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2857" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2664,7 +2664,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f8lTIuKl9If6AdlYnQds-47" value="0, N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="360" y="724" width="60" height="30" as="geometry" />
+          <mxGeometry x="354" y="724" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f8lTIuKl9If6AdlYnQds-48" value="0, N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="515" y="724" width="60" height="30" as="geometry" />
@@ -2834,14 +2834,38 @@
         <mxCell id="zSSijCg0BpLnyg-nOkDV-3" value="0, N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="800" y="848" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zSSijCg0BpLnyg-nOkDV-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Chat&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Id_Mensagem: BigInt&lt;br&gt;+ Mensagem: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Usuario: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DataHora: DateTime&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AdicionarMensagem(Id_Usuario): void()&lt;br&gt;+ ApagarMensagem(Id_Mensagem): void()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="319" y="960" width="251" height="140" as="geometry" />
+        <mxCell id="zSSijCg0BpLnyg-nOkDV-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MensagemChat&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Id_Mensagem: BigInt&lt;br&gt;+ Mensagem: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Usuario: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DataHora: DateTime&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AdicionarMensagem(Id_Usuario): void()&lt;br&gt;+ ApagarMensagem(Id_Mensagem): void()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="960" width="271" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="zSSijCg0BpLnyg-nOkDV-5" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZzeZOz91MFCRp-LcwLDX-1" target="mrBHrF8PR-DWsUEEr9Jn-1">
+        <mxCell id="zSSijCg0BpLnyg-nOkDV-5" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZzeZOz91MFCRp-LcwLDX-1" target="mrBHrF8PR-DWsUEEr9Jn-1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="310" y="650" as="sourcePoint" />
             <mxPoint x="470" y="650" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zSSijCg0BpLnyg-nOkDV-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.816;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mrBHrF8PR-DWsUEEr9Jn-1" target="zSSijCg0BpLnyg-nOkDV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="830" as="sourcePoint" />
+            <mxPoint x="380" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSSijCg0BpLnyg-nOkDV-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZzeZOz91MFCRp-LcwLDX-1" target="zSSijCg0BpLnyg-nOkDV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="820" as="sourcePoint" />
+            <mxPoint x="420" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSSijCg0BpLnyg-nOkDV-10" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="810" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zSSijCg0BpLnyg-nOkDV-12" value="0,N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="930" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zSSijCg0BpLnyg-nOkDV-13" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="584" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zSSijCg0BpLnyg-nOkDV-14" value="0,N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="920" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
