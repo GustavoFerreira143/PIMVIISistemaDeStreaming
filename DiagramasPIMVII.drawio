@@ -2856,16 +2856,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zSSijCg0BpLnyg-nOkDV-10" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="810" width="60" height="20" as="geometry" />
+          <mxGeometry x="610" y="810" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zSSijCg0BpLnyg-nOkDV-12" value="0,N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="930" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zSSijCg0BpLnyg-nOkDV-13" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="584" width="60" height="20" as="geometry" />
+          <mxGeometry x="360" y="584" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zSSijCg0BpLnyg-nOkDV-14" value="0,N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="920" width="60" height="30" as="geometry" />
+          <mxGeometry x="360" y="920" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
